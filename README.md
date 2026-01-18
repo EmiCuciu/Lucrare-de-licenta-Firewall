@@ -28,6 +28,22 @@ Sistemul funcționează pe trei niveluri distincte:
 3.  **Nivelul Prezentare (Web UI):**
     * **Backend:** API Flask pentru a servi datele și a primi comenzi de configurare.
     * **Frontend:** Dashboard HTML/JS cu `Chart.js` pentru vizualizare grafică.
+  
+   
+## 🛠️ Tehnologii Folosite
+
+OS: Ubuntu Server (Dezvoltare) / OpenWrt (Țintă finală)
+
+Limbaj: Python 3.x
+
+Networking: NetfilterQueue, Scapy
+
+Web Framework: Flask
+
+Bază de Date: SQLite
+
+Frontend: HTML5, Bootstrap, Chart.js
+
 
 ```mermaid
 graph TD;

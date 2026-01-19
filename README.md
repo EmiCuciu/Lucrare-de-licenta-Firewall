@@ -1,12 +1,7 @@
-# 🛡️ NetGuard: Sistem de Firewall și Interceptare Trafic de Pachete
+# Lucrare de licență: Firewall și Interceptare Trafic de Pachete
 
 > **Proiect de Licență** | 2026  
 > Un sistem de management al firewall-ului pe Linux cu interceptare de pachete în timp real, analiză și vizualizare.
-
-
-## 📖 Prezentare Generală
-
-**NetGuard** este o soluție software creată pentru a face legătura între nivelul scăzut al kernel-ului Linux și managementul la nivel de utilizator. Spre deosebire de firewall-urile standard care aplică doar reguli statice, NetGuard folosește `NFQUEUE` pentru a intercepta pachetele, trimițându-le către un motor Python ("userspace") pentru inspecție profundă și luarea deciziilor în timp real.
 
 **Obiective Principale:**
 * Interceptarea pachetelor de rețea folosind `iptables`/`nftables`.

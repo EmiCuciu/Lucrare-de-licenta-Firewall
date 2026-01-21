@@ -89,7 +89,7 @@ graph TD;
 
 Validarea sistemului a fost realizată într-un mediu virtualizat (VirtualBox) compus din:
 
-* **VM 1 (Firewall):** Ubuntu Server - nucleul central al aplicației NetGuard.
+* **VM 1 (Firewall):** Ubuntu Server - nucleul central al aplicației.
 
 * **VM 2 (Atacator):** Kali Linux - utilizat pentru simularea atacurilor (scanări cu Nmap, flood cu Hping3).
 
